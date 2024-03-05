@@ -5,7 +5,7 @@ WORKDIR /teeworlds
 WORKDIR /teeworlds/configfile
 ADD ./configfile/custom_config.cfg .
 WORKDIR /teeworlds
-ADD ./entrypoint.sh
+ADD ./entrypoint.sh .
 
 RUN apt update && apt upgrade -y
 
