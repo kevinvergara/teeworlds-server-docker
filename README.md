@@ -15,3 +15,7 @@
 ## to configure more options
 
 - you must modify the custom_config.cfg and run the commands again
+
+## information
+
+- port: 8303
