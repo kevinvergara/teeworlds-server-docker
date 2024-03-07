@@ -19,6 +19,4 @@ WORKDIR /teeworlds/configfile
 ADD ./configfile/custom_config.cfg .
 WORKDIR /teeworlds
 
-#CMD ["/teeworlds/teeworlds-0.7.5-linux_x86_64/teeworlds_srv", "-console", "-port", "8303"] 
-#CMD [ "tail", "-f", "/dev/null" ]
 ENTRYPOINT ./entrypoint.sh

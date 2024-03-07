@@ -18,3 +18,4 @@
 ## information
 
 - port: 8303
+- more information: [link](https://teeworlds.com/?page=docs&wiki=server_settings)
